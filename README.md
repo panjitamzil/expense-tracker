@@ -72,5 +72,3 @@ Expense deleted successfully
 $ ./expense-tracker summary
 Total expenses: $20.00
 ```
-
-https://roadmap.sh/projects/expense-tracker
