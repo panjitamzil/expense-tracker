@@ -43,7 +43,6 @@ func main() {
 			os.Exit(1)
 		}
 		fmt.Printf("Expense added successfully (ID: %d)\n", newID)
-
 	case "update":
 		updateCmd := flag.NewFlagSet("update", flag.ExitOnError)
 		id := updateCmd.Int("id", 0, "ID of the expense to update")
